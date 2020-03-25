@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: black;
+    font-size: 15px;
+}
+.carousel img{
+    height: 80vh;
+    transition: 1s ease-in-out;
+}
+/* home icons */
+.icon i{
+    font-size: 40px;
+}
+/* get started */
+.get_started{
+    background:linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.774)), url(/img/bg1.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+}
+/* video inof */
+.video_info{
+    background:linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.842)), url(/img/people.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+}
+.video_icon i{
+    font-size: 40px;
+    color: red;
+}
+.modal-video-body {
+    width: 65%;
+}
+/* photo_gallery */
+.photo_gallery img{
+    width: 100%;
+    min-height: 250px;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+/* stick menu */
+.goToTop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  /* about us */
+.about{
+    background: url(/img/image1.jpeg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about_info img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+/* about_card */
+.about_card .card i{
+    font-size: 50px;
+}
+/* services */
+.service{
+    background: url(/img/image3.jpeg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+
+/* media query */
+@media(max-width: 991px){
+    .about_info{
+        text-align: center;
+    }
+}
+@media(max-width: 510px){
+    .carousel h5 {
+        font-size: 30px;
+    }
+    .carousel img{ 
+        height: 60vh;
+    }
+    
+}
+
+
